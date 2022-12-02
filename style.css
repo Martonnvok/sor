@@ -22,3 +22,43 @@ img{
 main{
     width: 80%;
 }
+
+//táblázat
+
+//table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+//td{
+    border: 1px solid gray;
+    text-align: right;
+}
+//th{
+    border: 1px solid gray;
+    text-align: left;
+}
+//tbody tr:nth-child(1){
+    background-color: lightblue;
+    font-size: 20px;
+}
+
+//main{
+	max-width:1000px;
+	background: #333333;
+	text-align:center;
+}
+
+//body{
+	background-size:cover;
+
+}
+
+//nav a:hover{
+	color:red;
+}
+
+//a{
+	display:none;
+}
