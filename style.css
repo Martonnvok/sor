@@ -40,28 +40,23 @@ article{
     background-color: black;
     grid-area: a;
     display: grid;
+    padding: 10px;
 }
 
 aside{
-    
-    display:grid;
+    background-color: #333333;
+    display: grid;
     grid-area: as;
     gap: 15px;
 }
 
-a{
+.link{
 	color:red;
     border: solid 2px gray;
-    padding:  0em 1em;
-    line-height: 2;
     border-radius: 8px;
+    padding: 25px;
+    margin: 15px;
 }
-
-
-
-
-
-
 
 
 
