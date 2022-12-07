@@ -57,6 +57,7 @@ aside{
 	color:red;
     border: solid 2px gray;
     border-radius: 8px;
+    font-size: 15px;
     padding: 25px;
     margin: 15px;
 }
