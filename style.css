@@ -18,7 +18,10 @@ header{
     display: grid;
 }
 img{
+    grid-area: i;
     height: 150px;
+    background-color: black;
+    text-align: center;
 }
 
 main{
@@ -31,9 +34,9 @@ main{
     display: grid;
     grid-template-areas: 
     "h h h"
-    "a a as"
+    "i a as"
     "f f f";
-    background-color: #333333;
+
 }
 
 article{
@@ -59,7 +62,7 @@ aside{
 }
 
 
-
+/*tábla*/
 table{
     width: 90%;
     border-collapse: collapse;
@@ -92,10 +95,5 @@ footer{
     display: grid;
 }
 
-aside{
-    margin: 20px;
-    padding: 20px;
-    background-color: black;
-    text-align: justify;
-}
+
 
